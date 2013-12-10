@@ -29,8 +29,6 @@ int main ( int argc, char * argv[] )
     {
         if ( my_rank == 0 )
         {
-
-
             cout << "Usage: " << argv[0] << " TEST" << endl;
             cout << "TEST:  send_recv" << endl;
             cout << "       broadcast" << endl;
